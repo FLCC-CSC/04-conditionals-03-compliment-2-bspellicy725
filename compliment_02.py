@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Bridget Spellicy
+# DATE: 03/01/2026
+# BRIEF DESCRIPTION:  This program asks the user if they want a compliment and prints a compliment only if the user enters "yes". Otherwise, it prints a no compliment message.
 
 
 
@@ -14,7 +14,14 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+answer = input("Would you like a compliment? ")
 
+if answer == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+
+print("Thank you for playing.")
 
 
 
@@ -70,6 +77,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
+No, this one was pretty straight forward.
 
 
 
